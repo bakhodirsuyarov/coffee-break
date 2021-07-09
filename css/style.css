@@ -358,7 +358,7 @@ body{
 }
 
 
-/* WORK */
+/* HOW */
 
 
 .work-section{
@@ -382,11 +382,11 @@ body{
 }
 
 .work-section__list{
-  counter-reset: "work-section";
+  counter-reset: work-section;
 }
 
 .work-section__item{
-  counter-increment: "work-section";
+  counter-increment: work-section;
 }
 
 .work-item__title{
@@ -720,7 +720,7 @@ body{
   }
 
 
-  /* WORK */
+  /* HOW */
 
   .work-section__heading{
     position: relative;
