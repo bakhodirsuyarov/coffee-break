@@ -602,7 +602,7 @@ body{
 
 
   .collection-heading{
-    font-size: 102px;
+    font-size: 83px;
     line-height: 72px;
   }
 
@@ -812,7 +812,7 @@ body{
 @media only screen and (min-width: 768px) {
 
   .collection-heading{
-    font-size: 124px;
+    font-size: 99px;
     line-height: 72px;
   }
 
@@ -899,7 +899,7 @@ body{
 
 
   .collection-heading{
-    font-size: 150px;
+    font-size: 117px;
   }
 
   .collection-list{
@@ -1032,7 +1032,7 @@ body{
 @media only screen and (min-width: 1300px) {
 
   .collection-heading{
-    font-size: 180px;
+    font-size: 140px;
   }
 
   .collection-list{
@@ -1061,5 +1061,13 @@ body{
     padding-right: 200px;
   }
 
+
+
+  /* COLLECTION */
+
+
+  .collection-heading{
+    font-size: 140px;
+  }
 
 }
