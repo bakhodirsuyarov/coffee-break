@@ -722,6 +722,7 @@ body{
 
   /* HOW */
 
+
   .work-section__heading{
     position: relative;
     z-index: 1;
@@ -730,23 +731,25 @@ body{
   }
 
   .work-section__list{
-
+    position: relative;
+    z-index: 1;
     display: flex;
   }
 
-  .work-section__list:before{
+  .work-section__list::before{
     position: absolute;
-    display: block;
     content: "";
-    width: 495px;
-    height: 31px;
-    background-image: url(../img/three-circle.png);
-    background-repeat: no-repeat;
-    top: 2667px;
+    width: 70%;
+    height: 2px;
+    background-image: url(../img/how-line.svg);
+    background-size: contain;
+    left: 19px;
+    top: -48px;
   }
 
+
   .work-section__item:not(:last-child){
-    padding-right: 10px;
+    margin-right: 10px;
   }
 
   .work-section__item{
@@ -754,17 +757,19 @@ body{
     z-index: 1;
   }
 
-  /* .work-section__item::before{
+  .work-section__item::before{
     position: absolute;
-    z-index: -1;
     content: "";
-    width: 467px;
-    height: 2px;
-    background-image: url(../img/line.png);
+    width: 31px;
+    height: 31px;
+    background-image: url(../img/how-circle.svg);
     background-repeat: no-repeat;
-    left: 32px;
-    top: 2682px;
-  } */
+    background-size: cover;
+    left: 7px;
+    top: -64px;
+  }
+
+
 
   .work-item__title{
     text-align: left;
@@ -979,6 +984,28 @@ body{
   }
 
 
+  /* HOW */
+
+
+  .work-section{
+    padding-left: 100px;
+    padding-right: 150px;
+  }
+
+  .work-section__list::before{
+    width: 76%;
+  }
+
+  .work-section__item:not(:last-child){
+    margin-right: 95px;
+  }
+
+  .work-item__title{
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+
 
 
   /* FOOTER */
@@ -1023,5 +1050,16 @@ body{
     justify-content: center;
     margin-right: 100px;
   }
+
+}
+
+
+@media only screen and (min-width: 1316px) {
+
+  .work-section{
+    padding-left: 140px;
+    padding-right: 200px;
+  }
+
 
 }
